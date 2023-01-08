@@ -22,7 +22,6 @@ public class Main {
         }catch (NullPointerException e){
             System.out.println("Error: No hay productos en la lista");
         }
-
     }
     public static void prodHighValue(Product[] arr){
         Product res = arr[0];
